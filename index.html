@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard WebGIS</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Link ke file CSS -->
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 font-sans"> 
+     <!-- Navbar -->
+    <nav class="navbar">
+    <div class="logo">Informasi Kawasan Bahaya Tanah longsor Kabupaten Bandung Barat</div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+    <ul class="menu">
+        <li><a href="https://portalbpbdkbb.github.io/Album-Peta/">Album Peta</a></li>
+        <li><a href="https://portalbpbdkbb.github.io/Informasi-Peta-Bahaya-Tanah-Longsor-BPBD-KABUPATEN-BANDUNG-BARAT/">See Fullscreen Map</a></li>
+        <li><a href="https://instagram.com/bpbd.bandungbarat">Contact</a></li>
+    </ul>
+    </nav>
+    <!-- Main Content -->
+    <div class="container mx-auto mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+    <!-- Peta -->
+    <div class="bg-white p-4 shadow rounded">
+      <h2 class="text-lg font-semibold mb-4">Peta Interaktif</h2>
+      <iframe src="https://portalbpbdkbb.github.io/Informasi-Peta-Bahaya-Tanah-Longsor-BPBD-KABUPATEN-BANDUNG-BARAT/" class="w-full h-80 borderrounded" allowfullscreen></iframe>
+    </div>
+    <!-- Gambar JPG -->
+<img src="indeks_bahaya.jpg" alt="Indeks Bahaya"
+style="width:250px; height:100; margin-top:0px;">
+</html>
+
