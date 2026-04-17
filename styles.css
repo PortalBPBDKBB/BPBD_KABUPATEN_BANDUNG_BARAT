@@ -29,10 +29,11 @@ body {
 }
 
 .navbar .menu a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 8px 15px;
     transition: background-color 0.3s;
+    font-size: 14px;
 }
 
 .navbar .menu a:hover {
@@ -44,6 +45,48 @@ body {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
+}
+
+/* dropdown parent */
+.dropdown {
+  position: relative;
+}
+
+/* isi dropdown */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: rgb(0, 0, 0);
+  min-width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  border-radius: 6px;
+  overflow: hidden;
+  z-index: 999;
+}
+
+/* item dropdown */
+.dropdown-menu li {
+  margin: 0;
+}
+
+/* link dropdown */
+.dropdown-menu li a {
+  display: block;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+/* hover effect */
+.dropdown-menu li a:hover {
+  background-color: #000000;
+}
+
+/* tampil saat hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
 
 @media (max-width: 768px) {
