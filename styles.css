@@ -66,12 +66,10 @@ body {
   z-index: 999;
 }
 
-/* item dropdown */
 .dropdown-menu li {
   margin: 0;
 }
 
-/* link dropdown */
 .dropdown-menu li a {
   display: block;
   padding: 10px;
@@ -79,12 +77,10 @@ body {
   text-decoration: none;
 }
 
-/* hover effect */
 .dropdown-menu li a:hover {
   background-color: #000000;
 }
 
-/* tampil saat hover */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
